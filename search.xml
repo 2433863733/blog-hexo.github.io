@@ -215,35 +215,6 @@
     
     
     <entry>
-      <title>变址寄存器</title>
-      <link href="/posts/2023a8d.html"/>
-      <url>/posts/2023a8d.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>先看完变址寄存器再去看其他题思路</p><h2 id="原理">原理</h2><blockquote><p>高位是z寄存器，低位v寄存器，z和v分别都有八个但是他们不能同时去用就好比你用z0那就不能去v0必须反过来用v7</p></blockquote><ul><li>我们举一个例子来讲吧d50z0,他就是将d后面的编号加上z0里面的数变换到别的地址里了，比如z0里面现在的数是4那d50z0现在的地址就在d54同理d20z0的地址就在d24</li><li>当然还有移位写入（sfwrp），和移位写入（sfrdp）这个就自己去探索的挺好用的。<br>动态图<br><img src="https://cdn.lixingyong.com/2022/10/14/0f4e79e51a47ceaf3dcd3fd446f9b7d0.png" alt="0f4e79e51a47ceaf3dcd3fd446f9b7d0.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/1.png" alt="1.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/2.png" alt="2.png"></li></ul><h2 id="结尾">结尾</h2><p>看完之后就去实际里试试多去研究研究他的特性。记好笔记和思路。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 教学日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 变址 </tag>
-            
-            <tag> 索引 </tag>
-            
-            <tag> 存数据 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>前后端分离docker部署教学</title>
       <link href="/posts/2023a10d.html"/>
       <url>/posts/2023a10d.html</url>
@@ -265,6 +236,35 @@
             <tag> blog </tag>
             
             <tag> 教学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>变址寄存器</title>
+      <link href="/posts/2023a8d.html"/>
+      <url>/posts/2023a8d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>先看完变址寄存器再去看其他题思路</p><h2 id="原理">原理</h2><blockquote><p>高位是z寄存器，低位v寄存器，z和v分别都有八个但是他们不能同时去用就好比你用z0那就不能去v0必须反过来用v7</p></blockquote><ul><li>我们举一个例子来讲吧d50z0,他就是将d后面的编号加上z0里面的数变换到别的地址里了，比如z0里面现在的数是4那d50z0现在的地址就在d54同理d20z0的地址就在d24</li><li>当然还有移位写入（sfwrp），和移位写入（sfrdp）这个就自己去探索的挺好用的。<br>动态图<br><img src="https://cdn.lixingyong.com/2022/10/14/0f4e79e51a47ceaf3dcd3fd446f9b7d0.png" alt="0f4e79e51a47ceaf3dcd3fd446f9b7d0.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/1.png" alt="1.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/2.png" alt="2.png"></li></ul><h2 id="结尾">结尾</h2><p>看完之后就去实际里试试多去研究研究他的特性。记好笔记和思路。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教学日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 变址 </tag>
+            
+            <tag> 索引 </tag>
+            
+            <tag> 存数据 </tag>
             
         </tags>
       
