@@ -6,7 +6,7 @@
   <link href="https://blog.ppixia.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ppixia.cn/"/>
-  <updated>2022-10-23T14:00:00.000Z</updated>
+  <updated>2023-03-04T14:00:00.000Z</updated>
   <id>https://blog.ppixia.cn/</id>
   
   <author>
@@ -15,6 +15,316 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>16国赛</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>本题主要还是考察了对卡条件的掌握，这是一道规定订单题</p><h2 id="程序方面">程序方面</h2><ul><li>固定订单一定要看清楚他的要求是什么？因为固定订单的要求很多要卡的条件也很多看清楚题目要求，对整体的一个思路进行分析并想出来判料的判法</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">incp d80z4</span><br><span class="line"></span><br><span class="line">#incp在老机子上非常通用的一个判料方法</span><br></pre></td></tr></table></figure><ul><li>固定订单要写两个订单的需要好处就是你前期不需要去整理一些数据直接去写程序就行，生产完订单后要清理生产完订单的数据，触摸屏也要根据任务书去做。一些显示颜色的就用变址或者sfwr去写入。<br><img src="https://cdn.lixingyong.com/2022/10/14/16.png" alt="16.png"></li></ul>]]></content>
+    
+    
+    <summary type="html">16年国赛题固定订单</summary>
+    
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/categories/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    
+    <category term="国赛" scheme="https://blog.ppixia.cn/tags/%E5%9B%BD%E8%B5%9B/"/>
+    
+    <category term="16" scheme="https://blog.ppixia.cn/tags/16/"/>
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/tags/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>18国赛修改2</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>一道半固定订单，优先级非常的多，值得一做</p><h2 id="程序方面">程序方面</h2><ol><li>还是老样子，跟做固定订单一样的是，都要卡条件，但是不一样的是这道题有许多优先级，所以卡条件时候也得去把优先级卡上。</li><li>“一个订单”，“两个订单”他们生产的方式不一样，一个是一个订单一个顶单的生产，而另一个则是一起同时生产，用两个M分别代表两个订单，如果是一个订单后边还要去检测还有没有订单，两个的不用了，题上说最大限制2个订单所以无需多虑，做题的时候记得多联想一下实际应用情况。</li></ol><p><img src="https://cdn.lixingyong.com/2022/10/14/1822000-2002.png" alt="1822000-2002.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/1822003-2005.png" alt="1822003-2005.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/1821.png" alt="1821.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/182.png" alt="182.png"></p><h2 id="mcgs">mcgs</h2><p><img src="https://cdn.lixingyong.com/2022/10/14/182c09027271d107e20.png" alt="182c09027271d107e20.png"></p>]]></content>
+    
+    
+    <summary type="html">18年国赛题半固定订单</summary>
+    
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/categories/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    
+    <category term="国赛" scheme="https://blog.ppixia.cn/tags/%E5%9B%BD%E8%B5%9B/"/>
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/tags/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    <category term="18" scheme="https://blog.ppixia.cn/tags/18/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>18市赛</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>这是一道无订单的题，sfc学习完后可以拿这道题开刀。</p><h2 id="程序方面">程序方面</h2><ol><li>m8002上电后清理掉m和d，相对应自己多创建几个sfc块至于每个块中要写什么自己决定，为的就是后边调试好排查故障,m8000则用来置旋编和触摸屏联动。</li><li>判料方面三个检测器用incp把数加在一个d里那么当金就等于3，白就是2，黑就是1，判出料后，将判出的料根据任务书的指示打到相对应的产品槽里不合格的料则去往别的地方</li><li>旋编方面要先加数再去驱动旋转<br><img src="https://cdn.lixingyong.com/2022/08/13/b46b4449527c637ab08bdf9bff8cc234.png" alt="b46b4449527c637ab08bdf9bff8cc234.png"></li></ol><h2 id="mcgs">mcgs</h2><ul><li>触摸屏联动的是指令为</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mov h6086 d8120 #需要用m8000置起来</span><br></pre></td></tr></table></figure><ul><li>触摸屏密码窗口方面脚本</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">if!strcomp( a,&quot;123&quot;)=0 then</span><br><span class="line">m001=0</span><br><span class="line">else</span><br><span class="line">d999=d999+1</span><br><span class="line">endif</span><br><span class="line">if!strcomp( a,&quot;321&quot;)=0 then</span><br><span class="line">M001=1</span><br><span class="line">else</span><br><span class="line">d999=d999+1</span><br><span class="line">endif</span><br><span class="line">#m0和1对应两个正确的结果如果0通了就去窗口一1通了就去窗口2</span><br></pre></td></tr></table></figure><ul><li>密码输入错误可以使用d999或者其他的d作为条件（可见度），</li><li>有许多的触摸屏功能可以直接套用的，比如合格率的计算之类，但是自然小数调为0，其次乘以k100。</li></ul>]]></content>
+    
+    
+    <summary type="html">18年市赛，开胃菜题大杂烩</summary>
+    
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/categories/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/tags/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    <category term="18" scheme="https://blog.ppixia.cn/tags/18/"/>
+    
+    <category term="市赛" scheme="https://blog.ppixia.cn/tags/%E5%B8%82%E8%B5%9B/"/>
+    
+    <category term="开胃菜" scheme="https://blog.ppixia.cn/tags/%E5%BC%80%E8%83%83%E8%8F%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>19国赛</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>这是一道非常经典的题，考察你的运算逻辑特别强，这道题别急着做，先做几道订单市赛题练练手再说</p><h2 id="程序方面">程序方面</h2><h3 id="订单">订单</h3><p>订单题无非就以下几个步骤</p><ol><li>订单信息</li><li>产品编号，排产量</li><li>有几个编号需要生产</li><li>确定编号</li><li>判料</li></ol><blockquote><p>注意:1.料是否符合要求（一个）每个料为Dx k1<br>2.对应槽<br>3.对应槽每个料Dx+1表示已完成的产品<br>4.检查是否还有订单没生产</p></blockquote><h3 id="正篇">正篇</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#利用订单，状态，优先级，</span><br><span class="line">movp k101 c99</span><br><span class="line">out t250 k120</span><br><span class="line">#利用t250把相应订单的数据存到d200v0，并且v0加k30</span><br><span class="line">#当c99=0再把d200v1 k30传到d100 k30里</span><br><span class="line">#把订单一所需要的产品编号写入d150 k7中，排产量如下</span><br><span class="line">sfwr d106v2 150 k7</span><br><span class="line">sfwr d107v2 160 k7</span><br><span class="line">#最后把所需要生产的产品判断出来判料则还是</span><br><span class="line">incp d80z4</span><br><span class="line">#利用变址去判</span><br></pre></td></tr></table></figure><ul><li>图片<br><img src="https://cdn.lixingyong.com/2022/10/02/IMG20221002142757.jpg" alt="IMG20221002142757.jpg"><br><a href="https://view.lixingyong.com/image/Pt4SV"><img src="https://cdn.lixingyong.com/2022/10/02/IMG20221002142813.jpg" alt="IMG20221002142813.jpg"></a><br><img src="https://cdn.lixingyong.com/2022/10/02/IMG20221002142835.jpg" alt="IMG20221002142835.jpg"><br><img src="https://cdn.lixingyong.com/2022/10/14/19.png" alt="19.png"></li></ul><h2 id="mcgs">mcgs</h2><p><a href="https://view.lixingyong.com/image/PYxhY"><img src="https://cdn.lixingyong.com/2022/10/14/199f690ae48bd103e6.png" alt="199f690ae48bd103e6.png"></a></p>]]></content>
+    
+    
+    <summary type="html">经典之作初次加入存料机制</summary>
+    
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/categories/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    
+    <category term="国赛" scheme="https://blog.ppixia.cn/tags/%E5%9B%BD%E8%B5%9B/"/>
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/tags/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    <category term="19" scheme="https://blog.ppixia.cn/tags/19/"/>
+    
+    <category term="经典之作" scheme="https://blog.ppixia.cn/tags/%E7%BB%8F%E5%85%B8%E4%B9%8B%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>19省赛</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>难🚹：19省赛出现一个切换下一订单生产按钮。</p><h2 id="程序方面">程序方面</h2><p>卡料<br><a href="https://view.lixingyong.com/image/PkPyB"><img src="https://cdn.lixingyong.com/2022/10/14/19f4ea36309cf380d3.png" alt="19f4ea36309cf380d3.png"></a><br>判料<br><img src="https://cdn.lixingyong.com/2022/10/14/19b909b31c0e919d28.png" alt="19b909b31c0e919d28.png"><br>修改后的<br><img src="https://cdn.lixingyong.com/2022/10/14/1999e83b63a3161c55.png" alt="1999e83b63a3161c55.png"></p><h2 id="mcgs">mcgs</h2><h3 id="脚本界面">脚本界面</h3><p><a href="https://view.lixingyong.com/image/PYXdx"><img src="https://cdn.lixingyong.com/2022/10/14/192.png" alt="192.png"></a><br><img src="https://cdn.lixingyong.com/2022/10/14/19e88ffd40c2a463e1.png" alt="19e88ffd40c2a463e1.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/19149cdd76c624b016.png" alt="19149cdd76c624b016.png"></p>]]></content>
+    
+    
+    <summary type="html">19年省赛，基本操作的题没多大难度就是题目字多</summary>
+    
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/categories/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/tags/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    <category term="19" scheme="https://blog.ppixia.cn/tags/19/"/>
+    
+    <category term="省赛" scheme="https://blog.ppixia.cn/tags/%E7%9C%81%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos7开启bbr加速</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>BBR是Google开源的一种TCP网络拥塞优化算法，可以提高网站访问速度。</strong><br>查看当前服务器的内核版本</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -sr</span><br></pre></td></tr></table></figure><p>uname命令用于打印当前系统相关信息（内核版本号、硬件架构、主机名称和操作系统类型等）。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">-a或--all：显示全部的信息；</span><br><span class="line">-m或--machine：显示电脑类型；</span><br><span class="line">-n或-nodename：显示在网络上的主机名称；</span><br><span class="line">-r或--release：显示操作系统的发行编号；</span><br><span class="line">-s或--sysname：显示操作系统名称；</span><br><span class="line">-v：显示操作系统的版本；</span><br><span class="line">-p或--processor：输出处理器类型或&quot;unknown&quot;；</span><br><span class="line">-i或--hardware-platform：输出硬件平台或&quot;unknown&quot;；</span><br><span class="line">-o或--operating-system：输出操作系统名称；</span><br><span class="line">--help：显示帮助；</span><br><span class="line">--version：显示版本信息。</span><br></pre></td></tr></table></figure><p>BBR内核要求是4.9+，通常来说你通过上面这个命令出来的内核版本是在3.几。接下来启用 ELRepo 仓库</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org</span><br><span class="line">rpm -Uvh https://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm</span><br></pre></td></tr></table></figure><p><img src="https://cdn.lixingyong.com/2022/11/07/29a71b487c070dbab0952e120ac57a0b.png" alt="29a71b487c070dbab0952e120ac57a0b.png"><br>然后安装新版的稳定版内核</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum --enablerepo=elrepo-kernel install kernel-ml -y</span><br></pre></td></tr></table></figure><p>安装完毕后使用下面的命令查看是否安装成功。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa | grep kernel</span><br></pre></td></tr></table></figure><p>我的显示如下：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">kernel-3.10.0-862.14.4.el7.x86_64</span><br><span class="line">kernel-ml-5.3.8-1.el7.elrepo.x86_64</span><br><span class="line">kernel-3.10.0-1062.4.1.el7.x86_64</span><br><span class="line">kernel-headers-3.10.0-1062.4.1.el7.x86_64</span><br><span class="line">kernel-3.10.0-957.5.1.el7.x86_64</span><br><span class="line">kernel-3.10.0-1062.1.2.el7.x86_64</span><br><span class="line">kernel-tools-3.10.0-1062.4.1.el7.x86_64</span><br><span class="line">kernel-tools-libs-3.10.0-1062.4.1.el7.x86_64</span><br><span class="line">kernel-3.10.0-957.1.3.el7.x86_64</span><br></pre></td></tr></table></figure><p>里面kernel-ml-5.3.8-1.el7.elrepo.x86_64就是安装的新版版本内核（你看到这篇教程的时候可能内核版本有变化，随机应变）</p><p>接下来需要设置系统启动顺序，使用下面的命令。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo egrep ^menuentry /etc/grub2.cfg | cut -f 2 -d \&#x27;</span><br></pre></td></tr></table></figure><p>我的显示如下：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">CentOS Linux (5.3.8-1.el7.elrepo.x86_64) 7 (Core)</span><br><span class="line">CentOS Linux (3.10.0-1062.4.1.el7.x86_64) 7 (Core)</span><br><span class="line">CentOS Linux (3.10.0-1062.1.2.el7.x86_64) 7 (Core)</span><br><span class="line">CentOS Linux (3.10.0-957.5.1.el7.x86_64) 7 (Core)</span><br><span class="line">CentOS Linux (3.10.0-957.1.3.el7.x86_64) 7 (Core)</span><br><span class="line">CentOS Linux (3.10.0-862.14.4.el7.x86_64) 7 (Core)</span><br><span class="line">CentOS Linux (0-rescue-618ca2de6e204efbb013b592564ef36a) 7 (Core)</span><br></pre></td></tr></table></figure><p>排在第一的就是CentOS Linux (5.3.8-1.el7.elrepo.x86_64) 7 (Core)，从第一行为0依次数，0、1、2、3这样，看你的新内核是第几。<br>然后就输入下面的命令（命令例子为第1行）</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo grub2-set-default 0</span><br></pre></td></tr></table></figure><p>接下来重启服务器</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure><p>再次查看内核版本</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -r</span><br></pre></td></tr></table></figure><p>内核版本显示为4.9以上，本文更新的时候新版版本是5.3.8，就证明安装成功了。</p><p>重建内核配置</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grub2-mkconfig -o /boot/grub2/grub.cfg</span><br></pre></td></tr></table></figure><p>重启系统验证，没问题就OK了。</p><h2 id="在CentOS7新内核上开启BBR">在CentOS7新内核上开启BBR</h2><p>要在新安装好的CentOS7上面启用新内核，只需要复制下面的代码执行就可以了。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">echo &#x27;net.core.default_qdisc=fq&#x27; | sudo tee -a /etc/sysctl.conf</span><br><span class="line">echo &#x27;net.ipv4.tcp_congestion_control=bbr&#x27; | sudo tee -a /etc/sysctl.conf</span><br><span class="line">sudo sysctl -p</span><br></pre></td></tr></table></figure><p>然后输入下面的命令查看是否开启BBR成功</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sysctl net.ipv4.tcp_available_congestion_control</span><br></pre></td></tr></table></figure><p>成功的话应该是下面这种输出</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">net.ipv4.tcp_available_congestion_control = bbr cubic reno</span><br></pre></td></tr></table></figure><p>继续验证</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sysctl -n net.ipv4.tcp_congestion_control</span><br></pre></td></tr></table></figure><p>输出应该是</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bbr</span><br></pre></td></tr></table></figure><p>最后看内核模块是否加载</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep bbr</span><br></pre></td></tr></table></figure><p>输出应该是类似下面这种</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp_bbr 16384 0</span><br></pre></td></tr></table></figure><h2 id="开启BBR有什么用？">开启BBR有什么用？</h2><p>简单来说，开启BBR可以对你网站访问速度起到一定的优化。BBR是Google开源的一种TCP网络拥塞优化算法，TCP BBR 致力于解决两个问题：在有一定丢包率的网络链路上充分利用带宽。降低网络链路上的 buffer 占用率，从而降低延迟。TCP 拥塞控制的目标是最大化利用网络上瓶颈链路的带宽。</p>]]></content>
+    
+    
+    <summary type="html">centos7开启bbr加速，升级内核方式</summary>
+    
+    
+    
+    <category term="搞七搞八" scheme="https://blog.ppixia.cn/categories/%E6%90%9E%E4%B8%83%E6%90%9E%E5%85%AB/"/>
+    
+    
+    <category term="bbr" scheme="https://blog.ppixia.cn/tags/bbr/"/>
+    
+    <category term="google" scheme="https://blog.ppixia.cn/tags/google/"/>
+    
+    <category term="网络加速" scheme="https://blog.ppixia.cn/tags/%E7%BD%91%E7%BB%9C%E5%8A%A0%E9%80%9F/"/>
+    
+    <category term="带宽最大化" scheme="https://blog.ppixia.cn/tags/%E5%B8%A6%E5%AE%BD%E6%9C%80%E5%A4%A7%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown代码高亮教学</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="注意">注意</h2><p>目前新版mardown编辑器要实现代码高亮，需在代码片顶部加入代码声明才可以实现高亮效果，具体实例如下：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// An highlighted block</span></span><br></pre></td></tr></table></figure><p><img src="https://view.lixingyong.com/images/2023/01/21/Google-Chrome-2023_1_21--16_11_45.png" alt=""><br><strong>ps：把language改为以下支持的语言即可</strong></p><h2 id="支持的语言：">支持的语言：</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1c, abnf, accesslog, actionscript, ada, apache, applescript, arduino, armasm, asciidoc, aspectj, autohotkey, autoit, avrasm, awk, axapta, bash, basic, bnf, brainfuck, cal, capnproto, ceylon, clean, clojure, clojure-repl, cmake, coffeescript, coq, cos, cpp, crmsh, crystal, cs, csp, css, d, dart, delphi, diff, django, dns, dockerfile, dos, dsconfig, dts, dust, ebnf, elixir, elm, erb, erlang, erlang-repl, excel, fix, flix, fortran, fsharp, gams, gauss, gcode, gherkin, glsl, go, golo, gradle, groovy, haml, handlebars, haskell, haxe, hsp, htmlbars, http, hy, inform7, ini, irpf90, java, javascript, json, julia, kotlin, lasso, ldif, leaf, less, lisp, livecodeserver, livescript, llvm, lsl, lua, makefile, markdown, mathematica, matlab, maxima, mel, mercury, mipsasm, mizar, mojolicious, monkey, moonscript, n1ql, nginx, nimrod, nix, nsis, objectivec, ocaml, openscad, oxygene, parser3, perl, pf, php, pony, powershell, processing, profile, prolog, protobuf, puppet, purebasic, python, q, qml, r, rib, roboconf, rsl, ruby, ruleslanguage, rust, scala, scheme, scilab, scss, smali, smalltalk, sml, sqf, sql, stan, stata, step21, stylus, subunit, swift, taggerscript, tap, tcl, tex, thrift, tp, twig, typescript, vala, vbnet, vbscript, vbscript-html, verilog, vhdl, vim, x86asm, xl, xml, xquery, yaml, zephir</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">markdown代码高亮教学</summary>
+    
+    
+    
+    <category term="搞七搞八" scheme="https://blog.ppixia.cn/categories/%E6%90%9E%E4%B8%83%E6%90%9E%E5%85%AB/"/>
+    
+    
+    <category term="markdown" scheme="https://blog.ppixia.cn/tags/markdown/"/>
+    
+    <category term="mac代码块" scheme="https://blog.ppixia.cn/tags/mac%E4%BB%A3%E7%A0%81%E5%9D%97/"/>
+    
+    <category term="渲染" scheme="https://blog.ppixia.cn/tags/%E6%B8%B2%E6%9F%93/"/>
+    
+    <category term="代码" scheme="https://blog.ppixia.cn/tags/%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前后端分离docker部署教学</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="项目介绍">项目介绍</h2><p><strong>项目地址：<a href="https://gitee.com/feng_meiyu/blog">前后端分离博客地址</a></strong><br><strong>基于SpringBoot + Vue 开发的前后端分离博客，采用SpringSecurity进行权限管理，ElasticSearch全文搜索，支持QQ、微博第三方登录、在线聊天、发布说说等功能。</strong></p><h2 id="资源准备">资源准备</h2><p><strong>一台2H4G的服务器</strong><br><strong>Idea64（开发Java的工具）</strong><br><strong>notepad++</strong><br><strong>Navicat Premium 16（mysql连接工具）</strong><br><strong>xshell（连接服务器工具）</strong><br><strong>xftp（上传服务器文件工具）</strong><br><strong>域名</strong></p><h2 id="环境安装">环境安装</h2><h3 id="1-1安装Docker">1.1安装Docker</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">yum install -y yum-utils device-mapper-persistent-data lvm2    //安装必要工具</span><br><span class="line">yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo //设置yum源</span><br><span class="line">yum install -y docker-ce  //下载docker</span><br><span class="line">systemctl start docker   //启动docker</span><br></pre></td></tr></table></figure><h3 id="1-2安装MySQL">1.2安装MySQL</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker pull mysql //下载MySQL镜像</span><br><span class="line">docker run --name mysql --restart=always -p 3306:3306 -e MYSQL_ROOT_PASSWORD=密码 -d mysql //启动MySQL</span><br></pre></td></tr></table></figure><h3 id="1-3安装Redis">1.3安装Redis</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker pull redis //下载Redis镜像</span><br><span class="line">docker run --name redis  --restart=always -p 6379:6379 -d redis --requirepass &quot;密码&quot; //启动Redis</span><br></pre></td></tr></table></figure><h3 id="1-4安装nginx">1.4安装nginx</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull nginx //下载nginx镜像</span><br></pre></td></tr></table></figure><h3 id="1-5-安装RabbitMQ">1.5.安装RabbitMQ</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker pull rabbitmq:management //下载RabbitMQ镜像</span><br><span class="line">docker run --name rabbit --restart=always -p 15672:15672 -p 5672:5672  -d  rabbitmq:management   //启动RabbitMQ,默认guest用户，密码也是guest。</span><br></pre></td></tr></table></figure><h3 id="docker常用指令">docker常用指令</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">docker pull xx       //下载镜像</span><br><span class="line">docker rmi xx       //删除镜像</span><br><span class="line">docker run xx       //运行容器</span><br><span class="line">docker exec -it xx /bin/bash  //进入容器</span><br><span class="line">docker rm xx        //删除容器</span><br><span class="line">docker stop xx     //停止容器</span><br><span class="line">docker restart xx  //重启容器</span><br><span class="line">docker rename 原名 改后名  //更改容器别名</span><br></pre></td></tr></table></figure><h2 id="项目部署">项目部署</h2><h3 id="修改参数">修改参数</h3><p>blog-master\blog-springboot\src\main\resourcesn\application.yml<br>按照里面说的修改为自己的参数<br><img src="https://view.lixingyong.com/images/2023/01/20/blog-master--application.yml-blog-springboot-Administrator-2023_1_20--20_09_28.png" alt=""><br><strong>ps：不会的可以参考群主的<a href="https://www.talkxj.com/articles/3">配置</a>文档</strong></p><h3 id="打包后端">打包后端</h3><p>点击右侧maven插件 -&gt; package<br><img src="https://view.lixingyong.com/images/2023/01/20/1f03c29f1da200e8bc7eab611697475b.jpg" alt=""><br>打包完成在target里面找到blog-springboot-0.0.1.jar blog.jar并复制出来<br><strong>ps：如果没有target文件夹可以参考这篇文章<a href="https://blog.csdn.net/csdndemimang/article/details/107810776">target文件夹显示</a></strong></p><h3 id="编写dockerfile文件">编写dockerfile文件</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">FROM openjdk:8</span><br><span class="line">VOLUME /tmp</span><br><span class="line">ADD blog-springboot-0.0.1.jar blog.jar       </span><br><span class="line">ENTRYPOINT [&quot;java&quot;,&quot;-Djava.security.egd=file:/dev/./urandom&quot;,&quot;-jar&quot;,&quot;/blog.jar&quot;] </span><br><span class="line">ENV TZ=Asia/Shanghai</span><br><span class="line">RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &amp;&amp; echo $TZ &gt; /etc/timezone</span><br></pre></td></tr></table></figure><p>由于Java8不给拉取了所以采用openjdk8</p><h3 id="编写blog-start-sh脚本">编写blog-start.sh脚本</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">#源jar路径  </span><br><span class="line">SOURCE_PATH=/usr/local/docker</span><br><span class="line">#docker 镜像/容器名字或者jar名字 这里都命名为这个</span><br><span class="line">SERVER_NAME=blog-springboot-0.0.1.jar</span><br><span class="line">TAG=latest</span><br><span class="line">SERVER_PORT=8080</span><br><span class="line">#容器id</span><br><span class="line">CID=$(docker ps | grep &quot;$SERVER_NAME&quot; | awk &#x27;&#123;print $1&#125;&#x27;)</span><br><span class="line">#镜像id</span><br><span class="line">IID=$(docker images | grep &quot;$SERVER_NAME:$TAG&quot; | awk &#x27;&#123;print $3&#125;&#x27;)</span><br><span class="line">if [ -n &quot;$CID&quot; ]; then</span><br><span class="line">  echo &quot;存在容器$SERVER_NAME, CID-$CID&quot;</span><br><span class="line">  docker stop $CID</span><br><span class="line">  docker rm $CID</span><br><span class="line">fi</span><br><span class="line"># 构建docker镜像</span><br><span class="line">if [ -n &quot;$IID&quot; ]; then</span><br><span class="line">  echo &quot;存在$SERVER_NAME:$TAG镜像，IID=$IID&quot;</span><br><span class="line">  docker rmi $IID</span><br><span class="line">else</span><br><span class="line">  echo &quot;不存在$SERVER_NAME:$TAG镜像，开始构建镜像&quot;</span><br><span class="line">  cd $SOURCE_PATH</span><br><span class="line">  docker build -t $SERVER_NAME:$TAG .</span><br><span class="line">fi</span><br><span class="line"># 运行docker容器</span><br><span class="line">docker run --name $SERVER_NAME -v /usr/local/upload:/usr/local/upload -d -p $SERVER_PORT:$SERVER_PORT $SERVER_NAME:$TAG</span><br><span class="line">echo &quot;$SERVER_NAME容器创建完成&quot;</span><br></pre></td></tr></table></figure><p><strong>ps:sh作为可执行文件我们需要用notepad++将其转换成Unix格式</strong></p><h3 id="将文件上传至服务器">将文件上传至服务器</h3><p><img src="https://view.lixingyong.com/images/2023/01/20/7bf9fc73a83b29737f02ee0f9db547b7.png" alt=""><br>接下来我们要将上述文件上传至服务器/usr/local/docker(手动创建)<br><img src="https://view.lixingyong.com/images/2023/01/20/Xftp-6-2023_1_20--22_03_47.png" alt=""></p><h3 id="docker运行后端项目">docker运行后端项目</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/docker #进入docker目录</span><br><span class="line">sh ./blog-start.sh  #执行sh文件构建镜像</span><br></pre></td></tr></table></figure><p>测试一下http://你的ip:8080<br><img src="https://view.lixingyong.com/images/2023/01/20/163.197.255.102_8080---Google-Chrome-2023_1_20--22_19_04.png" alt=""></p><p><strong>ps：需要重新部署重新上传jar包然后执行sh文件就行</strong></p><h3 id="打包前端项目">打包前端项目</h3><p>在打包之前我们需要修改一下前端的一些<a href="https://www.talkxj.com/articles/3">配置</a><br><strong>ps：这里推荐群主的配置教程</strong></p><p><strong>用idea64打开blog端目录</strong><br><img src="https://view.lixingyong.com/images/2023/01/20/blog-master--application.yml-blog-springboot-Administrator-2023_1_20--22_23_48.png" alt=""></p><p><strong>ps：前端需要把public下的index.html注释，升级全站https请求以便后续的nginx配置</strong><br><img src="https://view.lixingyong.com/images/2023/01/20/f2c92e138c599e66ae121fe8b9fcf740.png" alt=""></p><p><strong>ps：这里需要将vue.conf.js文件中的localhost改为自己的ip，后端也一样。</strong><br><img src="https://view.lixingyong.com/images/2023/01/20/blog--vue.config.js-Administrator-2023_1_20--23_10_16.png" alt=""></p><p>选择底端terminal执行以下命令</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install #拉取依赖</span><br><span class="line">npm run build #打包</span><br></pre></td></tr></table></figure><p>执行完后左侧栏会出现dist文件夹复制出来并改名blog</p><p><strong>用idea64打开admin端目录</strong><br><img src="https://view.lixingyong.com/images/2023/01/20/blog-master--application.yml-blog-springboot-Administrator-2023_1_20--22_23_54.png" alt=""></p><p>选择底端terminal执行以下命令</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install #拉取依赖</span><br><span class="line">npm run build #打包</span><br></pre></td></tr></table></figure><p>执行完后左侧栏会出现dist文件夹复制出来并改名admin</p><p>将blog和admin文件夹上传至服务器/usr/local/vue(自己手动创建)</p><h3 id="nginx配置">nginx配置</h3><p>在服务器/usr/local/nginx(手动创建)创建nginx.conf文件和cert文件夹<br><img src="https://view.lixingyong.com/images/2023/01/20/Xftp-6-2023_1_20--22_45_00.png" alt=""></p><p>申请自己域名的ssl证书并下载我的是腾讯云的<br><img src="https://view.lixingyong.com/images/2023/01/20/Xftp-6-2023-1-20--22-45-00---Takagi---Google-Chrome-2023_1_20--22_57_12.png" alt=""></p><p>把下载的证书解压会得到key、pem文件将其上传到服务器的cert文件中<br><img src="https://view.lixingyong.com/images/2023/01/20/Xftp-6-2023_1_20--22_45_08.png" alt=""></p><p>修改nginx.conf配置文件</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br></pre></td><td class="code"><pre><span class="line">events &#123;</span><br><span class="line">    worker_connections  1024;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">http &#123;</span><br><span class="line">    include       mime.types;</span><br><span class="line">    default_type  application/octet-stream;</span><br><span class="line">    sendfile        on;</span><br><span class="line">    keepalive_timeout  65;</span><br><span class="line"></span><br><span class="line">    client_max_body_size     50m;</span><br><span class="line">    client_body_buffer_size  10m;   </span><br><span class="line">    client_header_timeout    1m;</span><br><span class="line">    client_body_timeout      1m;</span><br><span class="line"></span><br><span class="line">    gzip on;</span><br><span class="line">    gzip_min_length  1k;</span><br><span class="line">    gzip_buffers     4 16k;</span><br><span class="line">    gzip_comp_level  4;</span><br><span class="line">    gzip_types text/plain application/javascript application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png;</span><br><span class="line">    gzip_vary on;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line"></span><br><span class="line">        listen  443 ssl;</span><br><span class="line">        server_name  前台域名;</span><br><span class="line"></span><br><span class="line">        ssl on;</span><br><span class="line">        ssl_certificate    pem文件位置;</span><br><span class="line">        ssl_certificate_key  key文件位置;</span><br><span class="line">        ssl_session_timeout 5m;</span><br><span class="line">        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">        ssl_prefer_server_ciphers on;</span><br><span class="line"></span><br><span class="line">       location / &#123;</span><br><span class="line">            root   /usr/local/vue/blog;</span><br><span class="line">            index  index.html index.htm;</span><br><span class="line">            try_files $uri $uri/ /index.html;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        location ^~ /api/ &#123;</span><br><span class="line">            proxy_pass http://你的ip:8080/;</span><br><span class="line">            proxy_set_header   Host             $host;</span><br><span class="line">            proxy_set_header   X-Real-IP        $remote_addr;</span><br><span class="line">            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line"></span><br><span class="line">        listen  443 ssl;</span><br><span class="line">        server_name  后台子域名;</span><br><span class="line"></span><br><span class="line">        ssl on;</span><br><span class="line">        ssl_certificate    pem文件位置;</span><br><span class="line">        ssl_certificate_key  key文件位置;</span><br><span class="line">        ssl_session_timeout 5m;</span><br><span class="line">        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">        ssl_prefer_server_ciphers on;</span><br><span class="line"></span><br><span class="line">       location / &#123;</span><br><span class="line">            root   /usr/local/vue/admin;</span><br><span class="line">            index  index.html index.htm;</span><br><span class="line">            try_files $uri $uri/ /index.html;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        location ^~ /api/ &#123;</span><br><span class="line">            proxy_pass http://你的ip:8080/;</span><br><span class="line">            proxy_set_header   Host             $host;</span><br><span class="line">            proxy_set_header   X-Real-IP        $remote_addr;</span><br><span class="line">            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line"></span><br><span class="line">        listen  443 ssl;</span><br><span class="line">        server_name  websocket子域名;</span><br><span class="line"></span><br><span class="line">        ssl on;</span><br><span class="line">        ssl_certificate    pem文件位置;</span><br><span class="line">        ssl_certificate_key  key文件位置;</span><br><span class="line">        ssl_session_timeout 5m;</span><br><span class="line">        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">        ssl_prefer_server_ciphers on;</span><br><span class="line"></span><br><span class="line">        location / &#123;</span><br><span class="line">          proxy_pass http://你的ip:8080/websocket;</span><br><span class="line">          proxy_http_version 1.1;</span><br><span class="line">          proxy_set_header Upgrade $http_upgrade;</span><br><span class="line">          proxy_set_header Connection &quot;Upgrade&quot;;</span><br><span class="line">          proxy_set_header Host $host:$server_port;</span><br><span class="line">          proxy_set_header X-Real-IP $remote_addr; </span><br><span class="line">          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; </span><br><span class="line">          proxy_set_header X-Forwarded-Proto $scheme; </span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line"></span><br><span class="line">        listen  443 ssl;</span><br><span class="line">        server_name  上传文件子域名;</span><br><span class="line"></span><br><span class="line">        ssl on;</span><br><span class="line">        ssl_certificate    pem文件位置;</span><br><span class="line">        ssl_certificate_key  key文件位置;</span><br><span class="line">        ssl_session_timeout 5m;</span><br><span class="line">        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">        ssl_prefer_server_ciphers on;</span><br><span class="line">     </span><br><span class="line">        location / &#123;</span><br><span class="line">          root /usr/local/upload/; </span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line">        listen       80;</span><br><span class="line">        server_name  前台域名;</span><br><span class="line"></span><br><span class="line">        rewrite ^(.*)$https://$host$1permanent;</span><br><span class="line"> </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line">        listen       80;</span><br><span class="line">        server_name  后台子域名;</span><br><span class="line">     </span><br><span class="line">        rewrite ^(.*)$https://$host$1permanent;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">server &#123;</span><br><span class="line">        listen       80;</span><br><span class="line">        server_name  websocket子域名;</span><br><span class="line">    </span><br><span class="line">        rewrite ^(.*)$https://$host$1permanent;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line">        listen       80;</span><br><span class="line">        server_name  上传文件子域名;</span><br><span class="line">    </span><br><span class="line">        rewrite ^(.*)$https://$host$1permanent;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p><strong>配置好域名和对应上传的pem文件和key文件位置（绝对路径，例/usr/local/nginx/cert/ppixia.cn.key）</strong></p><p><strong>启动nginx</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name nginx --restart=always -p 80:80 -p 443:443 -d -v /usr/local/nginx/nginx.conf:/etc/nginx/nginx.conf -v /usr/local/vue:/usr/local/vue -v /usr/local/nginx/cert:/usr/local/nginx/cert -v /usr/local/upload:/usr/local/upload nginx </span><br></pre></td></tr></table></figure><p>进入后台管理页面 -&gt; 网站配置 -&gt; 其他设置，将websocket域名改为wss协议<br><img src="https://view.lixingyong.com/images/2023/01/20/Google-Chrome-2023_1_20--22_51_26.png" alt=""></p><p><strong>ps：群主的也可以哦<a href="https://www.talkxj.com/articles/49">htttps部署</a></strong></p><h2 id="总结：">总结：</h2><p><strong>由于我花了很多时间才搭建好的blog，所以一些避坑技巧也都知道不会的可以评论区问我</strong></p>]]></content>
+    
+    
+    <summary type="html">docker玩明白了</summary>
+    
+    
+    
+    <category term="搞七搞八" scheme="https://blog.ppixia.cn/categories/%E6%90%9E%E4%B8%83%E6%90%9E%E5%85%AB/"/>
+    
+    
+    <category term="前后端分离" scheme="https://blog.ppixia.cn/tags/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/"/>
+    
+    <category term="blog" scheme="https://blog.ppixia.cn/tags/blog/"/>
+    
+    <category term="教学" scheme="https://blog.ppixia.cn/tags/%E6%95%99%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>变址寄存器</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>先看完变址寄存器再去看其他题思路</p><h2 id="原理">原理</h2><blockquote><p>高位是z寄存器，低位v寄存器，z和v分别都有八个但是他们不能同时去用就好比你用z0那就不能去v0必须反过来用v7</p></blockquote><ul><li>我们举一个例子来讲吧d50z0,他就是将d后面的编号加上z0里面的数变换到别的地址里了，比如z0里面现在的数是4那d50z0现在的地址就在d54同理d20z0的地址就在d24</li><li>当然还有移位写入（sfwrp），和移位写入（sfrdp）这个就自己去探索的挺好用的。<br>动态图<br><img src="https://cdn.lixingyong.com/2022/10/14/0f4e79e51a47ceaf3dcd3fd446f9b7d0.png" alt="0f4e79e51a47ceaf3dcd3fd446f9b7d0.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/1.png" alt="1.png"><br><img src="https://cdn.lixingyong.com/2022/10/14/2.png" alt="2.png"></li></ul><h2 id="结尾">结尾</h2><p>看完之后就去实际里试试多去研究研究他的特性。记好笔记和思路。</p>]]></content>
+    
+    
+    <summary type="html">就跟索引一样，处理数据，不，应该还简单</summary>
+    
+    
+    
+    <category term="教学日记" scheme="https://blog.ppixia.cn/categories/%E6%95%99%E5%AD%A6%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="变址" scheme="https://blog.ppixia.cn/tags/%E5%8F%98%E5%9D%80/"/>
+    
+    <category term="索引" scheme="https://blog.ppixia.cn/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+    <category term="存数据" scheme="https://blog.ppixia.cn/tags/%E5%AD%98%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哔哩哔哩自适应</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p><img src="https://cdn.lixingyong.com/2022/08/21/1604913139436-image-1.png" alt="1604913139436-image-1.png"></p><h2 id="代码">代码</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;position: relative; padding: 30% 45%;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">style</span>=<span class="string">&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot;</span><span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=772385078&amp;bvid=BV1i14y1x71c&amp;cid=814991040&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span> &gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="实测">实测</h2><div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"src="//player.bilibili.com/player.html?aid=772385078&bvid=BV1i14y1x71c&cid=814991040&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" ></iframe></div>]]></content>
+    
+    
+    <summary type="html">在网页中让哔哩哔哩视频自适应</summary>
+    
+    
+    
+    <category term="搞七搞八" scheme="https://blog.ppixia.cn/categories/%E6%90%9E%E4%B8%83%E6%90%9E%E5%85%AB/"/>
+    
+    
+    <category term="自适应" scheme="https://blog.ppixia.cn/tags/%E8%87%AA%E9%80%82%E5%BA%94/"/>
+    
+    <category term="bilibili" scheme="https://blog.ppixia.cn/tags/bilibili/"/>
+    
+    <category term="html" scheme="https://blog.ppixia.cn/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>订单电子狗（亚龙单机版）</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="通用程序">通用程序</h2><p><a href="https://view.lixingyong.com/image/PkJjL"><img src="https://cdn.lixingyong.com/2022/10/14/8b6fc5200a54a73eb08cd8d47583faf8.png" alt="8b6fc5200a54a73eb08cd8d47583faf8.png"></a><br><img src="https://cdn.lixingyong.com/2022/10/14/1953b8e467d383058.png" alt="1953b8e467d383058.png"></p>]]></content>
+    
+    
+    <summary type="html">电子狗程序</summary>
+    
+    
+    
+    <category term="教学日记" scheme="https://blog.ppixia.cn/categories/%E6%95%99%E5%AD%A6%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="变址" scheme="https://blog.ppixia.cn/tags/%E5%8F%98%E5%9D%80/"/>
+    
+    <category term="固定程序" scheme="https://blog.ppixia.cn/tags/%E5%9B%BA%E5%AE%9A%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="处理数据" scheme="https://blog.ppixia.cn/tags/%E5%A4%84%E7%90%86%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青岛国赛选拔赛</title>
+    <link href="https://blog.ppixia.cn/posts/2013454d.html"/>
+    <id>https://blog.ppixia.cn/posts/2013454d.html</id>
+    <published>2023-03-04T10:19:03.000Z</published>
+    <updated>2023-03-04T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>请看完变址寄存器后再来看这道题，当然你也可以不使用变址寄存器就是麻烦点😅</p><h2 id="程序方面">程序方面</h2><ul><li>在程序方面，判料没有什么可以讲的incp是老机子通用的，唯一的不同就是在判料的d后边加了一点作料也是为了方便后期使用</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x2 ——incp d40v0</span><br><span class="line">x3 ——incp d40v0</span><br><span class="line">x4 ——incp d40v0</span><br><span class="line">#x2,x3,x4分别为三个监测装置。v0则为变址寄存器</span><br><span class="line"></span><br></pre></td></tr></table></figure><ul><li>那么这样判料就完成了与以往的不同这次判完料别急着去清理，用incp v0去变址存到下一个d中等完成一个产品时候再去清理d，以及v中的数。</li><li>到了装车环节后，他的要求是与一槽相反这时候你就需要单独找一个块去decp v0，因为在你最后检测完哪个产品时候你就已经有变址到下一个d中去了，而这个d是没有数据的所以你就得单独去decp v0并且这个块只能运行一次，减完后就把料放上去如果数据相等就打入料槽decp v0，等待下一个产品到来。<br><img src="https://cdn.lixingyong.com/2022/10/14/a961510db759d0af447e8f64a4fc5be1.png" alt="a961510db759d0af447e8f64a4fc5be1.png"></li></ul><h2 id="mcgs">mcgs</h2><ul><li>mcgs检疫颜色显示也可以用变址去解决比如d50v3，在触摸屏里就可以依次排序d50，51，52，53，54……</li></ul>]]></content>
+    
+    
+    <summary type="html">不难，触摸屏显示第一道牛逼的</summary>
+    
+    
+    
+    <category term="思路档案" scheme="https://blog.ppixia.cn/categories/%E6%80%9D%E8%B7%AF%E6%A1%A3%E6%A1%88/"/>
+    
+    
+    <category term="国赛" scheme="https://blog.ppixia.cn/tags/%E5%9B%BD%E8%B5%9B/"/>
+    
+    <category term="选拔赛" scheme="https://blog.ppixia.cn/tags/%E9%80%89%E6%8B%94%E8%B5%9B/"/>
+    
+    <category term="青岛" scheme="https://blog.ppixia.cn/tags/%E9%9D%92%E5%B2%9B/"/>
+    
+    <category term="触摸屏同步" scheme="https://blog.ppixia.cn/tags/%E8%A7%A6%E6%91%B8%E5%B1%8F%E5%90%8C%E6%AD%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
@@ -30,7 +340,7 @@
     
     
     
-    <category term="演示" scheme="https://blog.ppixia.cn/categories/%E6%BC%94%E7%A4%BA/"/>
+    <category term="记录总结" scheme="https://blog.ppixia.cn/categories/%E8%AE%B0%E5%BD%95%E6%80%BB%E7%BB%93/"/>
     
     
     <category term="Markdown" scheme="https://blog.ppixia.cn/tags/Markdown/"/>

@@ -3423,7 +3423,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEEneI.jpg)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/04/ppEEneI.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEEneI.jpg)')"></a></div>
               </div>
             </details>
 
@@ -3432,7 +3432,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEElY8.jpg)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/04/ppEElY8.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEElY8.jpg)')"></a></div>
               </div>
             </details>
 
@@ -3440,7 +3440,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEENmn.jpg)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/04/ppEENmn.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEENmn.jpg)')"></a></div>
               </div>
             </details>
 
