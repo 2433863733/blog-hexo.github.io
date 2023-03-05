@@ -1338,7 +1338,7 @@ document.addEventListener('visibilitychange', function () {
 
 /* 搜索框修复 start */
 // searchSize();
-window.addEventListener('resize', searchSize)
+// window.addEventListener('resize', searchSize)
 // 搜索窗口自适应
 // function searchSize() {
 //   // 只需要适应手机端
