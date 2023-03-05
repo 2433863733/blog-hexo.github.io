@@ -3190,10 +3190,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://s1.ax1x.com/2023/03/04/ppEEiFK.jpg);
-    --darkmode-bg:url(https://s1.ax1x.com/2023/03/03/ppAE9H0.jpg);
-    --mobileday-bg: url(https://s1.ax1x.com/2023/03/04/ppEECo6.jpg);
-    --mobilenight-bg: url(https://s1.ax1x.com/2023/03/03/ppAEpBq.png);
+    --default-bg: url(https://api.ixiaowai.cn/api/api2.php);
+    --darkmode-bg:url(https://api.likepoems.com/img/pc);
+    --mobileday-bg: url(https://api.likepoems.com/img/pe);
+    --mobilenight-bg: url(https://api.likepoems.com/img/pe);
   }`;
 }
 // 切换背景主函数
@@ -3423,7 +3423,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/04/ppEEneI.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEEneI.jpg)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/05/ppEBLbd.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/05/ppEBLbd.jpg)')"></a></div>
               </div>
             </details>
 
@@ -3432,7 +3432,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/04/ppEElY8.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEElY8.jpg)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/05/ppEBTgO.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/05/ppEBTgO.jpg)')"></a></div>
               </div>
             </details>
 
@@ -3440,7 +3440,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/04/ppEENmn.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/04/ppEENmn.jpg)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/03/05/ppEB44x.jpg)" class="imgbox" onclick="changeBg('url(https://s1.ax1x.com/2023/03/05/ppEB44x.jpg)')"></a></div>
               </div>
             </details>
 
